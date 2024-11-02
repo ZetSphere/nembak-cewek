@@ -1,0 +1,182 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background: linear-gradient(45deg, #ff9a9e, #fad0c4);
+  overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Halaman Utama */
+.container {
+  text-align: center;
+  color: #fff;
+  z-index: 1;
+}
+
+h1 {
+  font-size: 3rem;
+  animation: loveWave 3s ease-in-out infinite alternate;
+  color: #ff6b6b;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  color: #ff6b6b;
+  background: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+  transform: translateY(-5px);
+  background: #f8d7da;
+  color: #c0392b;
+}
+
+/* Animasi */
+@keyframes loveWave {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-10px); }
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+/* Halaman Galeri */
+.gallery-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.gallery-container h1 {
+  color: #ff6b6b;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  animation: fadeIn 2s ease;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.gallery-item {
+  position: relative;
+  width: 200px;
+  height: 250px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.gallery-item:hover img {
+  transform: scale(1.1);
+}
+
+.caption {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  font-size: 1rem;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.gallery-item:hover .caption {
+  opacity: 1;
+}
+
+/* Efek Rotasi */
+.rotate {
+  transform: rotate(-3deg);
+}
+
+.rotate:nth-child(2) {
+  transform: rotate(2deg);
+}
+
+.rotate:nth-child(4) {
+  transform: rotate(-2deg);
+}
+
+
+
+/* Animasi FadeIn */
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+/* Responsivitas untuk tampilan mobile */
+@media (max-width: 768px) {
+  .gallery-container h1 {
+      font-size: 2rem;
+      margin-bottom: 20px; /* Menambah jarak antara h1 dan konten */
+  }
+
+  .gallery {
+      gap: 15px; /* Mengurangi jarak antar gambar */
+      padding: 10px; /* Memberikan ruang ekstra pada sisi kiri dan kanan */
+  }
+
+  .gallery-item {
+      width: 40%; /* Membuat gambar lebih kecil dan terlihat lebih rapi */
+      height: auto;
+      max-width: 160px;
+      margin-bottom: 15px; /* Menambah jarak antar gambar vertikal */
+  }
+
+  .gallery-item img {
+      width: 100%;
+      height: auto; /* Mengatur agar gambar tetap proporsional */
+      border-radius: 8px; /* Border lebih kecil agar terlihat lebih rapi di layar kecil */
+  }
+
+  .caption {
+      font-size: 0.85rem; /* Mengurangi ukuran font caption untuk menyesuaikan dengan layar kecil */
+      padding: 8px;
+      margin-top: 5px; /* Menambah sedikit ruang di bawah gambar */
+  }
+}
+
+
