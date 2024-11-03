@@ -6,7 +6,8 @@
 }
 
 body {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   background: linear-gradient(45deg, #ff9a9e, #fad0c4);
   overflow-x: hidden;
   display: flex;
@@ -24,18 +25,23 @@ body {
 
 h1 {
   font-size: 3rem;
+  font-weight: bolder;
   animation: loveWave 3s ease-in-out infinite alternate;
   color: #ff6b6b;
+  cursor: pointer;
 }
 
 p {
-  font-size: 1.2rem;
-  margin-bottom: 20px;
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  font-weight: bold;
 }
 
 button {
   padding: 10px 20px;
   font-size: 1rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
   border: none;
   border-radius: 5px;
   color: #ff6b6b;
@@ -53,8 +59,12 @@ button:hover {
 
 /* Animasi */
 @keyframes loveWave {
-  0% { transform: translateY(0); }
-  100% { transform: translateY(-10px); }
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
 }
 
 canvas {
@@ -139,44 +149,48 @@ canvas {
   transform: rotate(-2deg);
 }
 
-
-
 /* Animasi FadeIn */
 @keyframes fadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 /* Responsivitas untuk tampilan mobile */
 @media (max-width: 768px) {
+  h1 {
+    font-size: 2.3rem;
+    margin-bottom: 20px; /* Menambah jarak antara h1 dan konten */
+  }
   .gallery-container h1 {
-      font-size: 2rem;
-      margin-bottom: 20px; /* Menambah jarak antara h1 dan konten */
+    font-size: 2rem;
+    margin-bottom: 20px; /* Menambah jarak antara h1 dan konten */
   }
 
   .gallery {
-      gap: 15px; /* Mengurangi jarak antar gambar */
-      padding: 10px; /* Memberikan ruang ekstra pada sisi kiri dan kanan */
+    gap: 15px; /* Mengurangi jarak antar gambar */
+    padding: 10px; /* Memberikan ruang ekstra pada sisi kiri dan kanan */
   }
 
   .gallery-item {
-      width: 40%; /* Membuat gambar lebih kecil dan terlihat lebih rapi */
-      height: auto;
-      max-width: 160px;
-      margin-bottom: 15px; /* Menambah jarak antar gambar vertikal */
+    width: 40%; /* Membuat gambar lebih kecil dan terlihat lebih rapi */
+    height: auto;
+    max-width: 160px;
+    margin-bottom: 15px; /* Menambah jarak antar gambar vertikal */
   }
 
   .gallery-item img {
-      width: 100%;
-      height: auto; /* Mengatur agar gambar tetap proporsional */
-      border-radius: 8px; /* Border lebih kecil agar terlihat lebih rapi di layar kecil */
+    width: 100%;
+    height: auto; /* Mengatur agar gambar tetap proporsional */
+    border-radius: 8px; /* Border lebih kecil agar terlihat lebih rapi di layar kecil */
   }
 
   .caption {
-      font-size: 0.85rem; /* Mengurangi ukuran font caption untuk menyesuaikan dengan layar kecil */
-      padding: 8px;
-      margin-top: 5px; /* Menambah sedikit ruang di bawah gambar */
+    font-size: 0.85rem; /* Mengurangi ukuran font caption untuk menyesuaikan dengan layar kecil */
+    padding: 8px;
+    margin-top: 5px; /* Menambah sedikit ruang di bawah gambar */
   }
 }
-
-

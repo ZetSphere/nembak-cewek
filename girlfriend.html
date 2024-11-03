@@ -1,49 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Girlfriend</title>
+    <title>Anti Nicetry</title>
     <link rel="stylesheet" href="style.css" />
-</head>
-<body>
+  </head>
+  <body>
     <audio id="backgroundSound" src="sound.mp3" preload="auto"></audio>
-    
+
     <div class="gallery-container">
-      <h1>私の愛しい彼女</h1>
+      <h1>Makasih Yaaa &lt;3</h1>
       <div class="gallery">
         <canvas id="heartCanvas"></canvas>
         <div class="gallery-item rotate">
-          <img src="images/loveyou.jpg" alt="思い出 1" />
-          <div class="caption">
-            "あなたと過ごすすべての瞬間は幸せです。"
-          </div>
+          <img
+            src="https://media.tenor.com/K0Op-0SpsvkAAAAj/dudu-cute.gif"
+            alt="Kenangan 1"
+          />
+          <div class="caption">"Makasih ya cantik."</div>
         </div>
         <div class="gallery-item">
-          <img src="images/loveyou.jpg" alt="思い出 2" />
+          <img
+            src="https://media.tenor.com/CNJSyzMIkskAAAAj/bubu-dudu-sseeyall.gif"
+            alt="Kenangan 2"
+          />
           <div class="caption">
-            "あなたは毎日私が笑顔になる理由です。"
+            "Aku akan selalu mencintaimu, sampai kapanpun."
           </div>
         </div>
         <div class="gallery-item rotate">
-          <img src="images/loveyou.jpg" alt="思い出 3" />
-          <div class="caption">
-              "私のあなたへの愛は空のように限りがありません。"
-          </div>
+          <img
+            src="https://media.tenor.com/63IENW605s0AAAAj/dudu-twisting-dance.gif"
+            alt="Kenangan 3"
+          />
+          <div class="caption">"Makasih Udah Nerima Aku Yaa"</div>
         </div>
         <div class="gallery-item">
-          <img src="images/loveyou.jpg" alt="思い出 4" />
-          <div class="caption">"あなたと一緒にいると、すべてが完璧になります。"</div>
+          <img
+            src="https://media.tenor.com/LFYspX1SSUcAAAAj/bubu-dudu-bubu.gif"
+            alt="Kenangan 4"
+          />
+          <div class="caption">"Hehehehehehe."</div>
         </div>
       </div>
     </div>
-
     <script>
-      const nama = prompt("ようこそ、あなたの名前は何ですか？");
+      const nama = prompt("Haloo, siapa nama kamu?");
       while (true) {
-        let terima = confirm(
-          `いらっしゃいませ ${nama}, 私の恋人になってくれる？`
-        );
+        let terima = confirm(`Hehe, Halo ${nama}, Kamu mau gak jadi Pacarku?`);
         if (terima) {
           break;
         }
@@ -51,7 +56,7 @@
 
       // Pindahkan alert dan play sound ke dalam fungsi
       function showAlertAndPlaySound() {
-        alert(`へへへへ ${nama}, あなたはもう私のガールフレンドです！`);
+        alert(`Hehe Oke ${nama}, Makasih udah kasih aku kesempatan ini yaaa<3`);
         const sound = document.getElementById("backgroundSound");
         sound.play();
       }
@@ -137,5 +142,5 @@
 
       animate();
     </script>
-</body>
+  </body>
 </html>
