@@ -1,15 +1,12 @@
-# ANTI-NT: Bro Dijamin Diterima!
+# +100000 Aura
 
-Buat Kalian yang ingin Menembak Gebetan , Kalian bisa menggunakan Anti-NT ini. Anti-NT ini bisa membantu Kalian 100% Pasti Diterima.
+Buat Kalian yang ingin Menembak Gebetan , Kalian bisa menggunakan Project ini. Project ini bisa membantu Kalian 100% Pasti Diterima.
 
 ## Cara Menggunakan
 
 1. **Installasi**:
 
    - Clone repositori ini ke perangkatmu:
-     ```bash
-     https://github.com/ZetSphere/anti-nt.git
-     ```
    - Buka file `index.html` di browser untuk melihat hasilnya.
 
 2. **Modifikasi Sesuai Keinginan**:
@@ -19,6 +16,6 @@ Buat Kalian yang ingin Menembak Gebetan , Kalian bisa menggunakan Anti-NT ini. A
 
 ## ⭐ Dukungan Anda Sangat Berarti!
 
-Jika kamu menyukai **ANTI-NT** dan merasa bahwa alat ini bermanfaat untukmu, jangan ragu untuk memberikan ⭐ pada repositori ini! Setiap bintang yang kamu berikan adalah dukungan yang berarti dan akan memotivasi saya untuk terus berkembang.
+Jika kamu menyukai **Project ini** dan merasa bahwa ini bermanfaat untukmu, jangan ragu untuk memberikan ⭐ pada repositori ini! Setiap bintang yang kamu berikan adalah dukungan yang berarti dan akan memotivasi saya untuk terus berkembang.
 
 Terima kasih atas dukungannya!
