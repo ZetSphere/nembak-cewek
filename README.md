@@ -7,6 +7,9 @@ Buat Kalian yang ingin Menembak Gebetan , Kalian bisa menggunakan Project ini. P
 1. **Installasi**:
 
    - Clone repositori ini ke perangkatmu:
+     ```bash
+     https://github.com/ZetSphere/Confession.git
+     ```
    - Buka file `index.html` di browser untuk melihat hasilnya.
 
 2. **Modifikasi Sesuai Keinginan**:
