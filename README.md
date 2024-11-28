@@ -1,4 +1,4 @@
-# +100000 Aura
+# +100000 Aura 
 
 Buat Kalian yang ingin Menembak Gebetan , Kalian bisa menggunakan Project ini. Project ini bisa membantu Kalian 100% Pasti Diterima.
 
@@ -7,9 +7,11 @@ Buat Kalian yang ingin Menembak Gebetan , Kalian bisa menggunakan Project ini. P
 1. **Installasi**:
 
    - Clone repositori ini ke perangkatmu:
+     
      ```bash
      https://github.com/ZetSphere/Confession.git
      ```
+     
    - Buka file `index.html` di browser untuk melihat hasilnya.
 
 2. **Modifikasi Sesuai Keinginan**:
