@@ -1,6 +1,6 @@
-# +100000 Aura 
+# Nembak Anti Di Tolak
 
-Buat Kalian yang ingin Menembak Gebetan , Kalian bisa menggunakan Project ini. Project ini bisa membantu Kalian 100% Pasti Diterima.
+Nih Tembak Pake ini nih , bisa menggunakan Project ini. Project ini bisa membantu Kalian 100% Pasti Diterima.
 
 ## Cara Menggunakan
 
@@ -9,18 +9,14 @@ Buat Kalian yang ingin Menembak Gebetan , Kalian bisa menggunakan Project ini. P
    - Clone repositori ini ke perangkatmu:
      
      ```bash
-     https://github.com/ZetSphere/Confession.git
+     https://github.com/ZetSphere/nembak-cewek.git
      ```
      
    - Buka file `index.html` di browser untuk melihat hasilnya.
 
-2. **Modifikasi Sesuai Keinginan**:
+2. **Modifikasi & Tambah Fitur atau Style Sesuai Gayamu**:
 
-   - Pilih Code yang ingin kamu ubah, dan ubah sesuai keinginanmu.
-   - Kamu Juga bisa menambahkan Fitur atau Hal-hal lain yang ingin kamu tambahkan sesuai keinginanmu.
 
-## ⭐ Dukungan Anda Sangat Berarti!
+## Jangan Lupa Kasih Bintang Ya!
 
-Jika kamu menyukai **Project ini** dan merasa bahwa ini bermanfaat untukmu, jangan ragu untuk memberikan ⭐ pada repositori ini! Setiap bintang yang kamu berikan adalah dukungan yang berarti dan akan memotivasi saya untuk terus berkembang.
-
-Terima kasih atas dukungannya!
+Terima kasih!!
